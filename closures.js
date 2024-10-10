@@ -1,6 +1,7 @@
 const globaLVar = 20;
 
 function parameters (paramVar){
+    let functionVar = globaLVar-paramVar;
     
 }
 
