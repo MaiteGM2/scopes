@@ -7,4 +7,13 @@ function parameters (paramVar){
     }
 }
 
+function nestedFunc (functionVar, blockVar){
+    functionVar = functionVar*10;
+    blockVar = globaLVar;
+
+    console.log(globaLVar);
+    console.log(functionVar);
+    console.log(blockVar);
+}
+
 window.onload = parameters(15);
